@@ -1,0 +1,35 @@
+.div {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div table thead{
+
+color:black;
+border:2px solid black
+}
+.div table tbody{
+    color:black;
+    border:2px solid black;
+    text-align: center;
+}
+
+.div table tbody tr,.div table tbody tr td{
+    color:black;
+    border:2px solid black;
+    text-align: center;
+}
+.div table tbody tr td button{
+   border-radius: 2px;
+   border: none;
+   outline: none;
+   
+}
+.div table tbody tr td .btn{
+    background-color: green;
+}
+.div table tbody tr td .muted{
+    background-color: rgb(255, 0, 0);
+}
+
